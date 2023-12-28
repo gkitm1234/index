@@ -1,0 +1,49 @@
+body {
+    background-color: #FFC0CB; /* Jasno różowe tło */
+    text-align: center;
+    overflow: hidden; /* Ukrycie przekraczających granice elementów */
+}
+
+.snow-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#centered-text {
+    font-size: 100px;
+    margin-top: 50px;
+}
+
+#image {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+#bottom-text {
+    font-size: 100px;
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 20px;
+    font-size: 60px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(100vh);
+    }
+}
+
+.snowflake {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-image: url('images/snowi.png');
+    background-size: contain;
+    animation: fall linear infinite;
+}
