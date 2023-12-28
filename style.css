@@ -12,23 +12,24 @@ body {
 }
 
 #centered-text {
-    font-size: 100px;
+    font-size: 50px;
     margin-top: 50px;
 }
 
 #image {
-    max-width: 100%;
+    width: 270px;
+    height: 480;
     margin-top: 20px;
 }
 
 #bottom-text {
-    font-size: 100px;
+    font-size: 50px;
     margin-top: 20px;
 }
 
 button {
     margin-top: 20px;
-    font-size: 60px;
+    font-size: 25px;
     padding: 10px 20px;
     cursor: pointer;
 }
@@ -41,8 +42,8 @@ button {
 
 .snowflake {
     position: absolute;
-    width: 500px;
-    height: 500px;
+    width: 250px;
+    height: 250px;
     background-image: url('images/snowi.png');
     background-size: contain;
     animation: fall linear infinite;
