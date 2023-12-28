@@ -13,12 +13,12 @@ body {
 
 #centered-text {
     font-size: 50px;
-    margin-top: 50px;
+    margin-top: 5px;
 }
 
 #image {
-    width: 270px;
-    height: 480;
+    width: 180px;
+    height: 320px;
     margin-top: 20px;
 }
 
