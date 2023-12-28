@@ -1,4 +1,4 @@
-const imagePaths = ['images/zdjecie1.jpg', 'images/zdjecie5.jpg', 'images/zdjecie2.jpg', 'images/zdjecie3.jpg', 'images/zdjecie4.jpg'];
+const imagePaths = ['zdjecie1.jpg', 'zdjecie5.jpg', 'images/zdjecie2.jpg', 'images/zdjecie3.jpg', 'images/zdjecie4.jpg'];
 let currentImageIndex = 0;
 
 function changeImage() {
